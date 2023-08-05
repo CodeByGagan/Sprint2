@@ -22,7 +22,7 @@
 
     <script>
         // Retrieve products from local storage and display them
-        document.addEventListener('DOMContentLoaded', function () {
+        // document.addEventListener('DOMContentLoaded', function () {
             const productListElement = document.getElementById('productList');
             const products = JSON.parse(localStorage.getItem('products')) || [];
 
@@ -46,7 +46,7 @@
                 }
                 productListElement.innerHTML = productsHTML;
             }
-        });
+        // });
     </script>
 
     <!-- Add Bootstrap JS and jQuery script links -->
